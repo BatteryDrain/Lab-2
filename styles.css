@@ -1,0 +1,27 @@
+header{
+    background-color: #120323;
+    color: #97bf04;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+nav{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+button{
+    background-color: #d9043d;
+    border-radius: 10px;
+}
+img{
+    box-shadow: 0 0 10px 10px black; /*x,y,spread,blur,color*/
+    border-radius: 10px;
+    max-width: 900px;
+    align-items: center;
+}
+button.selected {
+    background-color: green;
+}
